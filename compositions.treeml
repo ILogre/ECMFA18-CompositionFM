@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- prefuse TreeML Writer | Wed Feb 14 15:26:47 CET 2018 -->
+<tree>
+  <declarations>
+    <attributeDecl name="name" type="String"/>
+    <attributeDecl name="solitary" type="Int"/>
+    <attributeDecl name="group" type="Int"/>
+  </declarations>
+
+  <branch>
+    <attribute name="name" value="CompositionOperator"/>
+    <attribute name="solitary" value="-1"/>
+    <attribute name="group" value="-1"/>
+    <branch>
+      <attribute name="name" value="Level"/>
+      <attribute name="solitary" value="0"/>
+      <attribute name="group" value="-1"/>
+      <branch>
+        <attribute name="name" value="MUTEX204"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="4"/>
+        <leaf>
+          <attribute name="name" value="Binary"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Hybrid"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Code"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Instance"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+      <leaf>
+        <attribute name="name" value="Type"/>
+        <attribute name="solitary" value="1"/>
+        <attribute name="group" value="-1"/>
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="Role"/>
+      <attribute name="solitary" value="0"/>
+      <attribute name="group" value="-1"/>
+      <branch>
+        <attribute name="name" value="XOR205"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="16"/>
+        <leaf>
+          <attribute name="name" value="Flat"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Hierarchy"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+    </branch>
+    <branch>
+      <attribute name="name" value="Conformity"/>
+      <attribute name="solitary" value="0"/>
+      <attribute name="group" value="-1"/>
+      <branch>
+        <attribute name="name" value="XOR206"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="16"/>
+        <leaf>
+          <attribute name="name" value="Heterogeneous"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Homogeneous"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="AdHoc"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+    </branch>
+    <branch>
+      <attribute name="name" value="Automation"/>
+      <attribute name="solitary" value="0"/>
+      <attribute name="group" value="-1"/>
+      <branch>
+        <attribute name="name" value="XOR207"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="16"/>
+        <leaf>
+          <attribute name="name" value="&apos;80_20&apos;"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="&apos;20_80&apos;"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+    </branch>
+    <branch>
+      <attribute name="name" value="Family"/>
+      <attribute name="solitary" value="0"/>
+      <attribute name="group" value="-1"/>
+      <branch>
+        <attribute name="name" value="MUTEX208"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="4"/>
+        <leaf>
+          <attribute name="name" value="Merge"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Extension"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+      <branch>
+        <attribute name="name" value="MUTEX209"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="4"/>
+        <leaf>
+          <attribute name="name" value="Generalisation"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Integration"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Weaving"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+    </branch>
+    <branch>
+      <attribute name="name" value="Consistency"/>
+      <attribute name="solitary" value="0"/>
+      <attribute name="group" value="-1"/>
+      <branch>
+        <attribute name="name" value="OR210"/>
+        <attribute name="solitary" value="-1"/>
+        <attribute name="group" value="8"/>
+        <leaf>
+          <attribute name="name" value="Synchronisation"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+        <leaf>
+          <attribute name="name" value="Conform"/>
+          <attribute name="solitary" value="-1"/>
+          <attribute name="group" value="-1"/>
+        </leaf>
+      </branch>
+      <leaf>
+        <attribute name="name" value="Dependency"/>
+        <attribute name="solitary" value="1"/>
+        <attribute name="group" value="-1"/>
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="     CONSTRAINTS:     "/>
+      <attribute name="solitary" value="-1"/>
+      <attribute name="group" value="32"/>
+      <branch>
+        <attribute name="name" value="(Generalisation -&gt; Conform)"/>
+        <attribute name="solitary" value="32"/>
+        <attribute name="group" value="-1"/>
+        <branch>
+          <attribute name="name" value="(Generalisation -&gt; !Hybrid)"/>
+          <attribute name="solitary" value="32"/>
+          <attribute name="group" value="-1"/>
+          <branch>
+            <attribute name="name" value="(Hybrid -&gt; !Merge)"/>
+            <attribute name="solitary" value="32"/>
+            <attribute name="group" value="-1"/>
+            <branch>
+              <attribute name="name" value="(Integration -&gt; !Merge)"/>
+              <attribute name="solitary" value="32"/>
+              <attribute name="group" value="-1"/>
+              <branch>
+                <attribute name="name" value="(Homogeneous -&gt; !Dependency)"/>
+                <attribute name="solitary" value="32"/>
+                <attribute name="group" value="-1"/>
+                <branch>
+                  <attribute name="name" value="(AdHoc -&gt; &apos;80_20&apos;)"/>
+                  <attribute name="solitary" value="32"/>
+                  <attribute name="group" value="-1"/>
+                  <branch>
+                    <attribute name="name" value="(&apos;20_80&apos; -&gt; !Code)"/>
+                    <attribute name="solitary" value="32"/>
+                    <attribute name="group" value="-1"/>
+                    <branch>
+                      <attribute name="name" value="(Generalisation -&gt; Hierarchy)"/>
+                      <attribute name="solitary" value="32"/>
+                      <attribute name="group" value="-1"/>
+                      <branch>
+                        <attribute name="name" value="(&apos;20_80&apos; -&gt; !Dependency)"/>
+                        <attribute name="solitary" value="32"/>
+                        <attribute name="group" value="-1"/>
+                        <branch>
+                          <attribute name="name" value="(Hierarchy -&gt; !Flat)"/>
+                          <attribute name="solitary" value="32"/>
+                          <attribute name="group" value="-1"/>
+                          <branch>
+                            <attribute name="name" value="(Code -&gt; Integration)"/>
+                            <attribute name="solitary" value="32"/>
+                            <attribute name="group" value="-1"/>
+                            <branch>
+                              <attribute name="name" value="(Weaving -&gt; Hierarchy)"/>
+                              <attribute name="solitary" value="32"/>
+                              <attribute name="group" value="-1"/>
+                              <branch>
+                                <attribute name="name" value="(Code -&gt; AdHoc)"/>
+                                <attribute name="solitary" value="32"/>
+                                <attribute name="group" value="-1"/>
+                                <branch>
+                                  <attribute name="name" value="(Code -&gt; !Extension)"/>
+                                  <attribute name="solitary" value="32"/>
+                                  <attribute name="group" value="-1"/>
+                                  <branch>
+                                    <attribute name="name" value="((Arity -&gt; Binary) | (Arity -&gt; N_ary))"/>
+                                    <attribute name="solitary" value="32"/>
+                                    <attribute name="group" value="-1"/>
+                                    <branch>
+                                      <attribute name="name" value="(Generalisation -&gt; Type)"/>
+                                      <attribute name="solitary" value="32"/>
+                                      <attribute name="group" value="-1"/>
+                                      <branch>
+                                        <attribute name="name" value="(Extension -&gt; Hierarchy)"/>
+                                        <attribute name="solitary" value="32"/>
+                                        <attribute name="group" value="-1"/>
+                                        <branch>
+                                          <attribute name="name" value="(&apos;20_80&apos; -&gt; !Hybrid)"/>
+                                          <attribute name="solitary" value="32"/>
+                                          <attribute name="group" value="-1"/>
+                                          <branch>
+                                            <attribute name="name" value="(Generalisation -&gt; !Weaving)"/>
+                                            <attribute name="solitary" value="32"/>
+                                            <attribute name="group" value="-1"/>
+                                            <branch>
+                                              <attribute name="name" value="(Instance -&gt; !Generalisation)"/>
+                                              <attribute name="solitary" value="32"/>
+                                              <attribute name="group" value="-1"/>
+                                              <branch>
+                                                <attribute name="name" value="(Flat -&gt; !Weaving)"/>
+                                                <attribute name="solitary" value="32"/>
+                                                <attribute name="group" value="-1"/>
+                                                <branch>
+                                                  <attribute name="name" value="(Dependency -&gt; !Code)"/>
+                                                  <attribute name="solitary" value="32"/>
+                                                  <attribute name="group" value="-1"/>
+                                                  <branch>
+                                                    <attribute name="name" value="(Conform -&gt; !Hybrid)"/>
+                                                    <attribute name="solitary" value="32"/>
+                                                    <attribute name="group" value="-1"/>
+                                                    <branch>
+                                                      <attribute name="name" value="(Hybrid -&gt; Heterogeneous)"/>
+                                                      <attribute name="solitary" value="32"/>
+                                                      <attribute name="group" value="-1"/>
+                                                      <branch>
+                                                        <attribute name="name" value="(Generalisation -&gt; !AdHoc)"/>
+                                                        <attribute name="solitary" value="32"/>
+                                                        <attribute name="group" value="-1"/>
+                                                        <branch>
+                                                          <attribute name="name" value="(Code -&gt; !Weaving)"/>
+                                                          <attribute name="solitary" value="32"/>
+                                                          <attribute name="group" value="-1"/>
+                                                          <branch>
+                                                            <attribute name="name" value="(Extension -&gt; !Weaving)"/>
+                                                            <attribute name="solitary" value="32"/>
+                                                            <attribute name="group" value="-1"/>
+                                                            <branch>
+                                                              <attribute name="name" value="(Dependency -&gt; &apos;80_20&apos;)"/>
+                                                              <attribute name="solitary" value="32"/>
+                                                              <attribute name="group" value="-1"/>
+                                                              <branch>
+                                                                <attribute name="name" value="(Code -&gt; !Type)"/>
+                                                                <attribute name="solitary" value="32"/>
+                                                                <attribute name="group" value="-1"/>
+                                                                <branch>
+                                                                  <attribute name="name" value="(Instance -&gt; !Hybrid)"/>
+                                                                  <attribute name="solitary" value="32"/>
+                                                                  <attribute name="group" value="-1"/>
+                                                                  <branch>
+                                                                    <attribute name="name" value="(Hybrid -&gt; !AdHoc)"/>
+                                                                    <attribute name="solitary" value="32"/>
+                                                                    <attribute name="group" value="-1"/>
+                                                                    <branch>
+                                                                      <attribute name="name" value="(Integration -&gt; !Weaving)"/>
+                                                                      <attribute name="solitary" value="32"/>
+                                                                      <attribute name="group" value="-1"/>
+                                                                      <branch>
+                                                                        <attribute name="name" value="(Synchronisation -&gt; !Generalisation)"/>
+                                                                        <attribute name="solitary" value="32"/>
+                                                                        <attribute name="group" value="-1"/>
+                                                                        <branch>
+                                                                          <attribute name="name" value="(Hybrid -&gt; !Extension)"/>
+                                                                          <attribute name="solitary" value="32"/>
+                                                                          <attribute name="group" value="-1"/>
+                                                                          <branch>
+                                                                            <attribute name="name" value="(Instance -&gt; !Integration)"/>
+                                                                            <attribute name="solitary" value="32"/>
+                                                                            <attribute name="group" value="-1"/>
+                                                                            <branch>
+                                                                              <attribute name="name" value="(Extension -&gt; !Merge)"/>
+                                                                              <attribute name="solitary" value="32"/>
+                                                                              <attribute name="group" value="-1"/>
+                                                                              <branch>
+                                                                                <attribute name="name" value="(Homogeneous -&gt; !AdHoc)"/>
+                                                                                <attribute name="solitary" value="32"/>
+                                                                                <attribute name="group" value="-1"/>
+                                                                                <branch>
+                                                                                  <attribute name="name" value="(Synchronisation -&gt; !Code)"/>
+                                                                                  <attribute name="solitary" value="32"/>
+                                                                                  <attribute name="group" value="-1"/>
+                                                                                  <branch>
+                                                                                    <attribute name="name" value="(Homogeneous -&gt; Conform)"/>
+                                                                                    <attribute name="solitary" value="32"/>
+                                                                                    <attribute name="group" value="-1"/>
+                                                                                    <branch>
+                                                                                      <attribute name="name" value="(Homogeneous -&gt; !Generalisation)"/>
+                                                                                      <attribute name="solitary" value="32"/>
+                                                                                      <attribute name="group" value="-1"/>
+                                                                                      <branch>
+                                                                                        <attribute name="name" value="(N_ary -&gt; !Binary)"/>
+                                                                                        <attribute name="solitary" value="32"/>
+                                                                                        <attribute name="group" value="-1"/>
+                                                                                        <branch>
+                                                                                          <attribute name="name" value="(&apos;20_80&apos; -&gt; !&apos;80_20&apos;)"/>
+                                                                                          <attribute name="solitary" value="32"/>
+                                                                                          <attribute name="group" value="-1"/>
+                                                                                          <branch>
+                                                                                            <attribute name="name" value="(Dependency -&gt; !Flat)"/>
+                                                                                            <attribute name="solitary" value="32"/>
+                                                                                            <attribute name="group" value="-1"/>
+                                                                                            <branch>
+                                                                                              <attribute name="name" value="(Code -&gt; !Heterogeneous)"/>
+                                                                                              <attribute name="solitary" value="32"/>
+                                                                                              <attribute name="group" value="-1"/>
+                                                                                              <branch>
+                                                                                                <attribute name="name" value="(Instance -&gt; !Binary)"/>
+                                                                                                <attribute name="solitary" value="32"/>
+                                                                                                <attribute name="group" value="-1"/>
+                                                                                                <branch>
+                                                                                                  <attribute name="name" value="((((Family -&gt; Integration) | (Family -&gt; Extension)) | (Family -&gt; Merge)) | (Family -&gt; Weaving))"/>
+                                                                                                  <attribute name="solitary" value="32"/>
+                                                                                                  <attribute name="group" value="-1"/>
+                                                                                                  <branch>
+                                                                                                    <attribute name="name" value="(Extension -&gt; !AdHoc)"/>
+                                                                                                    <attribute name="solitary" value="32"/>
+                                                                                                    <attribute name="group" value="-1"/>
+                                                                                                    <branch>
+                                                                                                      <attribute name="name" value="(Integration -&gt; !Hybrid)"/>
+                                                                                                      <attribute name="solitary" value="32"/>
+                                                                                                      <attribute name="group" value="-1"/>
+                                                                                                      <branch>
+                                                                                                        <attribute name="name" value="(Generalisation -&gt; !Flat)"/>
+                                                                                                        <attribute name="solitary" value="32"/>
+                                                                                                        <attribute name="group" value="-1"/>
+                                                                                                        <branch>
+                                                                                                          <attribute name="name" value="(&apos;20_80&apos; -&gt; !AdHoc)"/>
+                                                                                                          <attribute name="solitary" value="32"/>
+                                                                                                          <attribute name="group" value="-1"/>
+                                                                                                          <branch>
+                                                                                                            <attribute name="name" value="(Generalisation -&gt; Heterogeneous)"/>
+                                                                                                            <attribute name="solitary" value="32"/>
+                                                                                                            <attribute name="group" value="-1"/>
+                                                                                                            <branch>
+                                                                                                              <attribute name="name" value="(Code -&gt; !Merge)"/>
+                                                                                                              <attribute name="solitary" value="32"/>
+                                                                                                              <attribute name="group" value="-1"/>
+                                                                                                              <branch>
+                                                                                                                <attribute name="name" value="(Hybrid -&gt; !Flat)"/>
+                                                                                                                <attribute name="solitary" value="32"/>
+                                                                                                                <attribute name="group" value="-1"/>
+                                                                                                                <branch>
+                                                                                                                  <attribute name="name" value="(Homogeneous -&gt; !Code)"/>
+                                                                                                                  <attribute name="solitary" value="32"/>
+                                                                                                                  <attribute name="group" value="-1"/>
+                                                                                                                  <branch>
+                                                                                                                    <attribute name="name" value="(Instance -&gt; !Type)"/>
+                                                                                                                    <attribute name="solitary" value="32"/>
+                                                                                                                    <attribute name="group" value="-1"/>
+                                                                                                                    <branch>
+                                                                                                                      <attribute name="name" value="(Code -&gt; Hierarchy)"/>
+                                                                                                                      <attribute name="solitary" value="32"/>
+                                                                                                                      <attribute name="group" value="-1"/>
+                                                                                                                      <branch>
+                                                                                                                        <attribute name="name" value="(Dependency -&gt; Hierarchy)"/>
+                                                                                                                        <attribute name="solitary" value="32"/>
+                                                                                                                        <attribute name="group" value="-1"/>
+                                                                                                                        <branch>
+                                                                                                                          <attribute name="name" value="(Instance -&gt; !Code)"/>
+                                                                                                                          <attribute name="solitary" value="32"/>
+                                                                                                                          <attribute name="group" value="-1"/>
+                                                                                                                          <branch>
+                                                                                                                            <attribute name="name" value="(Homogeneous -&gt; !Heterogeneous)"/>
+                                                                                                                            <attribute name="solitary" value="32"/>
+                                                                                                                            <attribute name="group" value="-1"/>
+                                                                                                                            <branch>
+                                                                                                                              <attribute name="name" value="(Generalisation -&gt; !Code)"/>
+                                                                                                                              <attribute name="solitary" value="32"/>
+                                                                                                                              <attribute name="group" value="-1"/>
+                                                                                                                              <branch>
+                                                                                                                                <attribute name="name" value="(Heterogeneous -&gt; !AdHoc)"/>
+                                                                                                                                <attribute name="solitary" value="32"/>
+                                                                                                                                <attribute name="group" value="-1"/>
+                                                                                                                                <branch>
+                                                                                                                                  <attribute name="name" value="(Instance -&gt; !Dependency)"/>
+                                                                                                                                  <attribute name="solitary" value="32"/>
+                                                                                                                                  <attribute name="group" value="-1"/>
+                                                                                                                                  <branch>
+                                                                                                                                    <attribute name="name" value="(Generalisation -&gt; !Integration)"/>
+                                                                                                                                    <attribute name="solitary" value="32"/>
+                                                                                                                                    <attribute name="group" value="-1"/>
+                                                                                                                                    <branch>
+                                                                                                                                      <attribute name="name" value="(Hybrid -&gt; !Binary)"/>
+                                                                                                                                      <attribute name="solitary" value="32"/>
+                                                                                                                                      <attribute name="group" value="-1"/>
+                                                                                                                                      <branch>
+                                                                                                                                        <attribute name="name" value="(Code -&gt; Conform)"/>
+                                                                                                                                        <attribute name="solitary" value="32"/>
+                                                                                                                                        <attribute name="group" value="-1"/>
+                                                                                                                                        <branch>
+                                                                                                                                          <attribute name="name" value="(Code -&gt; !Binary)"/>
+                                                                                                                                          <attribute name="solitary" value="32"/>
+                                                                                                                                          <attribute name="group" value="-1"/>
+                                                                                                                                          <branch>
+                                                                                                                                            <attribute name="name" value="(Generalisation -&gt; &apos;80_20&apos;)"/>
+                                                                                                                                            <attribute name="solitary" value="32"/>
+                                                                                                                                            <attribute name="group" value="-1"/>
+                                                                                                                                            <branch>
+                                                                                                                                              <attribute name="name" value="(Generalisation -&gt; !Binary)"/>
+                                                                                                                                              <attribute name="solitary" value="32"/>
+                                                                                                                                              <attribute name="group" value="-1"/>
+                                                                                                                                              <branch>
+                                                                                                                                                <attribute name="name" value="(Code -&gt; !Flat)"/>
+                                                                                                                                                <attribute name="solitary" value="32"/>
+                                                                                                                                                <attribute name="group" value="-1"/>
+                                                                                                                                                <branch>
+                                                                                                                                                  <attribute name="name" value="(Hybrid -&gt; !Code)"/>
+                                                                                                                                                  <attribute name="solitary" value="32"/>
+                                                                                                                                                  <attribute name="group" value="-1"/>
+                                                                                                                                                  <branch>
+                                                                                                                                                    <attribute name="name" value="(Hybrid -&gt; Weaving)"/>
+                                                                                                                                                    <attribute name="solitary" value="32"/>
+                                                                                                                                                    <attribute name="group" value="-1"/>
+                                                                                                                                                    <branch>
+                                                                                                                                                      <attribute name="name" value="((((Level -&gt; Instance) | (Level -&gt; Hybrid)) | (Level -&gt; Code)) | (Level -&gt; Type))"/>
+                                                                                                                                                      <attribute name="solitary" value="32"/>
+                                                                                                                                                      <attribute name="group" value="-1"/>
+                                                                                                                                                      <branch>
+                                                                                                                                                        <attribute name="name" value="(Homogeneous -&gt; !Integration)"/>
+                                                                                                                                                        <attribute name="solitary" value="32"/>
+                                                                                                                                                        <attribute name="group" value="-1"/>
+                                                                                                                                                        <branch>
+                                                                                                                                                          <attribute name="name" value="(Dependency -&gt; !Binary)"/>
+                                                                                                                                                          <attribute name="solitary" value="32"/>
+                                                                                                                                                          <attribute name="group" value="-1"/>
+                                                                                                                                                          <branch>
+                                                                                                                                                            <attribute name="name" value="(Hybrid -&gt; Dependency)"/>
+                                                                                                                                                            <attribute name="solitary" value="32"/>
+                                                                                                                                                            <attribute name="group" value="-1"/>
+                                                                                                                                                            <branch>
+                                                                                                                                                              <attribute name="name" value="(Generalisation -&gt; !&apos;20_80&apos;)"/>
+                                                                                                                                                              <attribute name="solitary" value="32"/>
+                                                                                                                                                              <attribute name="group" value="-1"/>
+                                                                                                                                                              <branch>
+                                                                                                                                                                <attribute name="name" value="(Integration -&gt; !Dependency)"/>
+                                                                                                                                                                <attribute name="solitary" value="32"/>
+                                                                                                                                                                <attribute name="group" value="-1"/>
+                                                                                                                                                                <branch>
+                                                                                                                                                                  <attribute name="name" value="(Hybrid -&gt; !Type)"/>
+                                                                                                                                                                  <attribute name="solitary" value="32"/>
+                                                                                                                                                                  <attribute name="group" value="-1"/>
+                                                                                                                                                                  <branch>
+                                                                                                                                                                    <attribute name="name" value="(Homogeneous -&gt; !Hybrid)"/>
+                                                                                                                                                                    <attribute name="solitary" value="32"/>
+                                                                                                                                                                    <attribute name="group" value="-1"/>
+                                                                                                                                                                    <branch>
+                                                                                                                                                                      <attribute name="name" value="(Extension -&gt; !Flat)"/>
+                                                                                                                                                                      <attribute name="solitary" value="32"/>
+                                                                                                                                                                      <attribute name="group" value="-1"/>
+                                                                                                                                                                      <leaf>
+                                                                                                                                                                        <attribute name="name" value="(Hybrid -&gt; Synchronisation)"/>
+                                                                                                                                                                        <attribute name="solitary" value="32"/>
+                                                                                                                                                                        <attribute name="group" value="-1"/>
+                                                                                                                                                                      </leaf>
+                                                                                                                                                                    </branch>
+                                                                                                                                                                  </branch>
+                                                                                                                                                                </branch>
+                                                                                                                                                              </branch>
+                                                                                                                                                            </branch>
+                                                                                                                                                          </branch>
+                                                                                                                                                        </branch>
+                                                                                                                                                      </branch>
+                                                                                                                                                    </branch>
+                                                                                                                                                  </branch>
+                                                                                                                                                </branch>
+                                                                                                                                              </branch>
+                                                                                                                                            </branch>
+                                                                                                                                          </branch>
+                                                                                                                                        </branch>
+                                                                                                                                      </branch>
+                                                                                                                                    </branch>
+                                                                                                                                  </branch>
+                                                                                                                                </branch>
+                                                                                                                              </branch>
+                                                                                                                            </branch>
+                                                                                                                          </branch>
+                                                                                                                        </branch>
+                                                                                                                      </branch>
+                                                                                                                    </branch>
+                                                                                                                  </branch>
+                                                                                                                </branch>
+                                                                                                              </branch>
+                                                                                                            </branch>
+                                                                                                          </branch>
+                                                                                                        </branch>
+                                                                                                      </branch>
+                                                                                                    </branch>
+                                                                                                  </branch>
+                                                                                                </branch>
+                                                                                              </branch>
+                                                                                            </branch>
+                                                                                          </branch>
+                                                                                        </branch>
+                                                                                      </branch>
+                                                                                    </branch>
+                                                                                  </branch>
+                                                                                </branch>
+                                                                              </branch>
+                                                                            </branch>
+                                                                          </branch>
+                                                                        </branch>
+                                                                      </branch>
+                                                                    </branch>
+                                                                  </branch>
+                                                                </branch>
+                                                              </branch>
+                                                            </branch>
+                                                          </branch>
+                                                        </branch>
+                                                      </branch>
+                                                    </branch>
+                                                  </branch>
+                                                </branch>
+                                              </branch>
+                                            </branch>
+                                          </branch>
+                                        </branch>
+                                      </branch>
+                                    </branch>
+                                  </branch>
+                                </branch>
+                              </branch>
+                            </branch>
+                          </branch>
+                        </branch>
+                      </branch>
+                    </branch>
+                  </branch>
+                </branch>
+              </branch>
+            </branch>
+          </branch>
+        </branch>
+      </branch>
+    </branch>
+  </branch>
+</tree>
