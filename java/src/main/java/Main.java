@@ -20,10 +20,16 @@ public class Main {
         ToFamiliar transformer = new ToFamiliar(rawData, "Approach", configuration.criteria());
         Map<String, String> products = transformer.getProducts();
 
-        products.forEach( (prod, contents) -> System.out.println(prod + " = " + contents) );
-
+        System.out.println(asFML(products));
 
     }
 
+    private static String asFML(Map<String, String> products) {
+        StringBuffer buff = new StringBuffer();
+        products.forEach( (prod, contents) -> buff.append(prod).append(" = ").append(contents).append("\n") );
+        buff.append("catalogue = merge sunion prod*\n");
+        buff.append("print(catalogue)\n");
+        return buff.toString();
+    }
 
 }

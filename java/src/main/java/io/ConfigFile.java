@@ -23,7 +23,7 @@ public class ConfigFile {
     }
 
     public Set<CriteriaDescriptor> criteria() throws IOException {
-        Set<CriteriaDescriptor> configuration = new HashSet<CriteriaDescriptor>();
+        Set<CriteriaDescriptor> configuration = new HashSet<>();
         return Files.lines(Paths.get(configFile.getPath()))
                 .map(String::trim).filter(s -> !(s.equals("") || s.startsWith("#")))
                 .map( this::extractCriteria )
