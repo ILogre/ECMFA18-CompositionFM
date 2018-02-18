@@ -22,4 +22,7 @@ fm_Ptolemy = FM(CompositionOperator: Family Level Conformity Role Automation Con
 fm_ModHelX = FM(CompositionOperator: Family Level Conformity Role Automation Consistency; Family: Extension;Level: Instance;Conformity: Heterogeneous;Role: Hierarchy;Arity: N_ary;Automation:  '20_80';Consistency: Synchronisation;)
 fm_BCOoL = FM(CompositionOperator: Family Level Conformity Role Automation Consistency; Family: Integration;Level: Type;Conformity: Heterogeneous;Role: Flat;Arity: Binary;Automation:  '20_80';Consistency: Synchronisation;)
 fm_Kermeta = FM(CompositionOperator: Family Level Conformity Role Automation Consistency; Family: Integration;Level: Code;Conformity: AdHoc;Role: Hierarchy;Arity: N_ary;Automation:  '80_20';Consistency: Conform;)
-fmmerged = merge sunion fm*
+fmmerged = merge sunion fm*fmmerged 
+
+print fmmerged
+
