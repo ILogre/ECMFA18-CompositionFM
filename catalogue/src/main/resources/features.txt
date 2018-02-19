@@ -1,0 +1,14 @@
+# Features used to classify composition operators
+
+## Scalar features
+
+Level
+Conformity
+Role
+Arity
+Automation
+
+## Vectorial features ("Yes" in the CSV means "keep it")
+
+Family: Merge Weaving Extension Integration Generalisation
+Consistency: Conform Synchronisation Dependency
