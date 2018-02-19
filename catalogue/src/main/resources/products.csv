@@ -8,7 +8,7 @@ ModelBus;Yes;No;No;No;No;Type;Heterogeneous;Hierarchy;Nary;High;No;Yes;No
 KerTheme;Yes;Yes;No;No;No;Type;AdHoc;Hierarchy;Binary;High;No;Yes;No
 CORE;No;Yes;No;No;No;Hybrid;Heterogeneous;Hierarchy;Nary;High;No;Yes;Yes
 SmartAdapters;No;Yes;No;No;No;Type;Homogeneous;Hierarchy;Binary;Low;Yes;No;No
-MATA;No;Yes;No;No;No;Instance;Homogeneous;Hierarchy;Nary;High;Yes;No;No
+MATA;No;Yes;No;No;No;Instance;Homogeneous;Hierarchy;Binary;High;Yes;No;No
 Geko;No;Yes;No;No;No;Instance;Homogeneous;Hierarchy;Nary;High;Yes;No;No
 Bruneliere;No;No;Yes;No;No;Type;Homogeneous;Hierarchy;Binary;Low;Yes;Yes;No
 I_MMD;No;No;Yes;No;No;Type;Homogeneous;Hierarchy;Nary;High;Yes;No;No
